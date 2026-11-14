@@ -11,7 +11,7 @@ Reference implementation of MINT-FS (Minority-Informed Neural Tabular Feature Se
 - `config.py` - hyper-parameters
 - `run_experiments.py` - experiment runner (synthetic benchmarks)
 - `MINTFS_validation_colab.ipynb` - Colab notebook that runs the real-dataset study and exports the paper tables
-- `results/` - per-dataset results (JSON) and summary tables behind the paper (5 stratified splits per real dataset)
+- `paper_tables.xlsx` and the `*.json` files - per-dataset results and summary tables behind the paper (5 stratified splits per real dataset)
 
 ## Install
     pip install torch numpy scikit-learn pandas scipy openpyxl
